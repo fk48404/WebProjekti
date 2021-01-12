@@ -9,8 +9,8 @@
                 <li><a href="./bunnies.php">Bunnies</a></li>
                 <li><a href="./educateme.php">Educate me</a></li>
 		<li><a href="./about.php">About us</a></li>
-		<li><a href="./meAdopto.php">Adopt me</a></li>
-                <li><a href="./contact.php">Login/Register</a></li>
+		<li><a href="./adoptMe.php">Adopt me</a></li>
+                <li><a href="./loginregister.php">Login/Register</a></li>
             </ul>
         </div>
     </div>
