@@ -1,0 +1,277 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.header {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    left: 5%;
+    height: 5px;
+	flex-wrap: wrap;
+}
+.header a{
+	color: #880e4f;
+	text-decoration: none;
+	font-size: 110%;
+	font-weight: bold;
+}
+.header ul{
+	margin-left: 35%;
+}
+.header li{
+	float: left;
+	display: inline;
+	padding: 0 17px 0 17px;
+}
+.header li:hover{
+	transition: 3s;
+	background-color: gray;
+	opacity: 0.9;
+	border-top-left-radius: 30px;
+	border-bottom-right-radius: 30px;
+	border-top-right-radius: 7px;
+	border-bottom-left-radius: 7px;
+}
+.header #divH1{
+	height: 40px;
+	width: 50px;
+	float: left;
+}
+.header nav{
+	float:right;
+	margin-top: 20px;
+	margin-top: 6%; 
+	margin-right: 7%;
+}
+
+.nav{
+	width: 100%;
+	height: 25px;
+	margin-top: 5px;
+}
+
+/*-------------------------------------------educateMe-------------------------------------------*/
+#educateMe {
+	text-align: center; 
+	padding-top: 2%;
+	color: #880e4f;
+}
+#eM {
+	text-align: center; 
+	width: 80%; 
+	margin-left: 10%; 
+	font-size: 125%;
+}
+
+.section1 {
+	background-color: #DDDDDD;
+	display: inline-block;
+	width: 80%;
+	margin-top: 1%;
+	margin-left: 10%;
+	border-radius: 200px;
+	box-shadow: -7px 7px 20px dimgrey;
+	flex-wrap: wrap;
+}
+.section1 aside {
+	float: right;
+	width: 50%;
+	height: 100%;
+	font-size: 120%;
+	text-align: center;
+}
+.section1  article {
+	float: left;
+	width: 50%;
+	min-height: 230px;
+	justify-content : center;
+}
+.section1  article img {
+	width: 30%;
+	margin-left: 1%;
+	margin-top:5%;
+}
+.section1  aside p {
+	margin: 20% 5% 15% -10%;
+	font-size: 110%;
+	text-align: center;
+}
+
+.section2 {
+	background-color: #DDDDDD;
+	display: inline-block;
+	width: 80%;
+	margin-top: 1%;
+	margin-left: 10%;
+	border-radius: 200px;
+	box-shadow: 7px 7px 20px dimgrey;
+}
+.section2 aside {
+	float:right;
+	width: 50%;
+}
+.section2 article {
+	float:left;
+	width: 50%;
+	font-size: 115%;
+	text-align: center;
+	line-height: 1.5em;}
+.section2 aside img {
+	width: 50%;
+	margin-left: 24%;
+	margin-top:13%;
+}
+.section2 article p {
+	margin: 15% 5% 15% 5%;
+	font-size: 110%;
+}
+.section2{
+	height: 28%;
+	min-height: 28%;
+}
+
+
+#dog-cat {
+	background-color: #018F98; 
+	margin-top: 2%; 
+	border: 2px dotted #DDDDDD; 
+	height: 350px; 
+	min-height: 350px;
+}
+#dog-cat article p {
+	color: #DDDDDD; 
+	margin-left: 15%; 
+	font-size: 115%;
+	font-family: Times;
+}
+#dog-cat aside img {
+	width: 45%; 
+	margin-left: 23%; 
+	margin-top: 10%;
+}
+#cat1 {
+	background-color: #20B691; 
+	border: 2px dotted #DDDDDD;
+	height: 350px; 
+	min-height: 350px;
+}
+#cat1 article img {
+	width: 60%; 
+	margin-top: 6%;
+	margin-left: 10%;
+}
+#cat1 aside p {
+	color: #DDDDDD; 
+	margin-right: 25%; 
+	margin-top: 16%;
+	font-size: 115%;
+	font-family: Times;
+}
+#bunny1 {
+	background-color: #AC1933; 
+	border: 2px dotted #DDDDDD;
+	height: 350px; 
+	min-height: 350px;
+}
+#bunny1 article p {
+	margin-top: 18%;
+	margin-left: 17%; 
+	color: #DDDDDD;
+	font-size: 115%;
+	font-family: Times;
+}
+#bunny1 aside img {
+	width: 75%; 
+	margin-top: 3% ;
+	margin-left:12%;
+}
+#bulldog {
+	background-color: #ddd6d4; 
+	border: 2px dotted #DDDDDD; 
+	height: 350px; 
+	min-height: 350px;
+}
+#bulldog article img {
+	width: 75%; 
+	margin-top:9.3%;
+}
+#bulldog aside p {
+	color: #ff4500; 
+	margin-right: 15%; 
+	margin-top: 16%;
+	font-size: 115%;
+	font-family: Times;
+}
+#bunny2 {
+	background-color: #243850; 
+	border: 2px dotted #DDDDDD; 
+	height: 350px; 
+	min-height: 350px;
+}
+#bunny2 article p {
+	margin-left: 20%; 
+	margin-top: 18%;
+	color: #DDDDDD;
+	font-size: 115%;
+	font-family: Times;
+}
+#bunny2 aside img {
+	width: 65%;
+	margin-top: 7.5%; 
+	margin-left: 19%;
+}
+
+#blueEyes {
+	background-color: #ffe4e1; 
+	margin-bottom: 2%; 
+	border: 2px dotted #DDDDDD; 
+	height: 350px; 
+	min-height: 350px;
+}
+#blueEyes article img {
+	width: 55%; 
+	margin-left: 10%; 
+	margin-top: 6%;
+}
+#blueEyes aside p {
+	color: #b6473b; 
+	margin-left: 5%; 
+	margin-right: 30%; 
+	margin-top: 16%;
+}
+
+
+
+
+
+/* --------FOOTERI------------- */
+
+#footer {
+	width: 100%;
+	height: 40px;
+
+}
+#footer h2{
+	text-align: center;
+	color: #880e4f;
+}
+#footer p {
+	text-align: center;
+	font-weight: bold;
+	font-size: 100%;
+}
+/*----Fundi----*/
+#lastFooter {
+	width: 100%;
+	height: 40px;
+}
+#lastFooter p {
+	text-align: center;
+	font-weight: bold;
+	font-size: 100%;
+	color:#880e4f;
+}
